@@ -20,3 +20,7 @@ pip install pygame
 ```
 python Malamalama3.py
 ```
+
+### Music
+
+Music has been added to the game!  The piece was written and performed by a friend.

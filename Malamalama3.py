@@ -400,10 +400,15 @@ class ExitBlock(Walls):
 
 def main():
     pygame.init()
+    mixer.init()
+
     screen = pygame.display.set_mode(Window, FLAGS, DEPTH)
     pygame.display.set_caption("Malamalama Python 3.9")
     timer = pygame.time.Clock()
     running = True
+
+    pygame.mixer.music.load(".\music\SadMalamalama.mp3")
+    pygame.mixer.music.play(loops=-1)
 
     manager = SceneMananger()
 
